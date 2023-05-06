@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+   
+    margin-bottom: 2rem;
+}
+nav{
+    
+    text-align: center;
+    background-color: #5D6D7E;
+    color: #F2F3F4;
+    padding: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+.tarjeta{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    
+}    
+.tarjeta>img{
+    border-radius: 12%;
+    width: 280px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+}
+.card-info>p{
+    font-weight: bold;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
